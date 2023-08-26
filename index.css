@@ -1,0 +1,46 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #0c0e10;
+  /* overflow-x: hidden; */
+}
+#container {
+  display: flex;
+}
+#right-screen {
+  /* border: 1px solid green; */
+  min-width: 80%;
+}
+a,
+p,
+
+h3,
+ol,
+h5,
+h6 li {
+  color: white;
+  text-decoration: none;
+}
+.individual-card {
+  background-color: #191d20;
+  padding: 0.5rem;
+  width: 27%;
+  line-height: 0.2rem;
+}
+#cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+.divImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
